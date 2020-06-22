@@ -1,5 +1,7 @@
-fruits = "apple banana apple peach pear"
-boop = "doodle"
+from nltk.corpus import wordnet
+
+fruits = "joyful blue red green pitiful"
+boop = "business"
 
 
 def container(paragraph):
@@ -11,16 +13,26 @@ def container(paragraph):
             d[word] += d[word]
         else:
             d[word] = 1
-
-    for key in d:
-        print(key, ":", d[key])
-
     return d
 
 
 def match(keyword, dictionary):
     if keyword in dictionary:
         return dictionary
+    else:
+        synonyms = synonym(keyword)
+        for word in synonyms:
+            if word in dictionary:
+                return dictionary
+
+
+def synonym(keyword):
+    synonyms = []
+    for syn in wordnet.synsets(keyword):
+        for lem in syn.lemmas():
+            synonyms.append(lem.name().replace("_", " "))
+    print(set(synonyms))
+    return synonyms
 
 
 if __name__ == "__main__":
