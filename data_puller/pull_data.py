@@ -4,10 +4,6 @@ from  selenium import webdriver
 import time
 import json
 
-
-
-
-
 def get_org_links():
     url = 'https://westernu.campuslabs.ca/engage/organizations'
     driver = webdriver.PhantomJS('/mnt/c/Users/Vaskar/Downloads/phantomjs-2.1.1-windows/phantomjs-2.1.1-windows/bin/phantomjs.exe')
