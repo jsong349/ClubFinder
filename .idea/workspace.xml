@@ -2,117 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd7ffe76-5533-4e1e-8cc6-7d4d4520aa79" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/data_puller/pull_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_puller/pull_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_interface/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_interface/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ClubFinder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ClubFinder.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_interface/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/user_interface/index.html" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_puller/clubfinder/clubfinder/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data_puller/clubfinder/clubfinder/spiders/club_spider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/data_puller/clubfinder/clubfinder/main.py" />
-        <option value="$PROJECT_DIR$/data_puller/clubfinder/clubfinder/spiders/club_spider.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ClubFinder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClubFinder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ClubFinder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClubFinder" type="462c0819:PsiDirectoryNode" />
-              <item name="data_puller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ClubFinder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClubFinder" type="462c0819:PsiDirectoryNode" />
-              <item name="data_puller" type="462c0819:PsiDirectoryNode" />
-              <item name="clubfinder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ClubFinder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClubFinder" type="462c0819:PsiDirectoryNode" />
-              <item name="data_puller" type="462c0819:PsiDirectoryNode" />
-              <item name="clubfinder" type="462c0819:PsiDirectoryNode" />
-              <item name="clubfinder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ClubFinder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ClubFinder" type="462c0819:PsiDirectoryNode" />
-              <item name="data_puller" type="462c0819:PsiDirectoryNode" />
-              <item name="clubfinder" type="462c0819:PsiDirectoryNode" />
-              <item name="clubfinder" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1dmtvCV62BoRJFQuGkFiB9E5fOi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../automatedsellingprogram" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jenny Song\ClubFinder\user_interface" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.club_spider">
     <configuration name="club_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ClubFinder" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,12 +80,18 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.club_spider" />
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
-    </recent_temporary>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -172,46 +103,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592781354121</updated>
+      <workItem from="1593043733779" duration="861000" />
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data_puller/clubfinder/clubfinder/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_puller/clubfinder/clubfinder/spiders/club_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="388" y="145" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593062636889">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="388" y="145" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1593062636889" />
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1593042355944">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1593042355944" />
   </component>
 </project>

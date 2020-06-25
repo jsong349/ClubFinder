@@ -1,0 +1,89 @@
+. {
+    padding: 0;
+    margin: 0;
+    font-family: 'Oxygen', sans-serif;
+}
+
+body {
+    background-color: #D1C6E6;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.nav-bar {
+    display: grid;
+    grid-template-column: repeat(8, 1fr);
+}
+
+.one {
+    grid-column: 1/4;
+    grid-row: 1;
+}
+
+.two {
+    grid-column: 7/8;
+    grid-row: 1;
+    justify-self: right;
+}
+
+.three {
+    grid-column: 8/8;
+    grid-row: 1;
+    justify-self: right;
+}
+
+.logo {
+    width: 8.92vw;
+    height: 4.09vw;
+}
+
+.main-logo {
+    width: 26.75vw;
+    height: 12.24vw;
+}
+
+.mid-section {
+    padding-top: 2vw;
+    display: grid;
+    grid-template-row: repeat(4, 1fr);
+}
+
+.section {
+    justify-self: center;
+}
+
+.mid2-section {
+    display: grid;
+    grid-template-column: 1fr 1fr;
+}
+
+.prompt {
+    grid-column: 1/2;
+    grid-row: 1;
+    justify-self: right;
+}
+
+.custom-select {
+    grid-column: 2/2;
+    grid-row: 1;
+    justify-self: left;
+    padding-left: 1vw;
+    padding-top: 1.6vw;
+}
+
+.select-css {
+    width: 19vw;
+    height: 2.5vw;
+    display: block;
+    color: #444;
+    line-height: 1.3;
+    font-family: 'Oxygen', sans-serif;
+    border-radius: 2vw;
+    font-size: 1.8vw;
+}
+
+.button {
+    width: 13.38vw;
+    height: 6.14vw;
+    display: block;
+    margin: 0 auto
+}
