@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>ClubFinder</title>
@@ -14,21 +14,18 @@
         <div class="three"><a href="index.html"><img class=logo src="home_button.png" alt="Club Finder"></a></div>
     </div>
 
-    <div class="mid-section">
-        <div class="section"><h1>Welcome to</h1></div>
-        <div class="section"><img class=main-logo src="Club_Finder.png" alt="Club Finder"></div>
-        <div class ="section"><h2>Find campus clubs at</h2></div>
+    <div class="middle">
+        <h2>Hey there! To help you find a club that fits, we want to get
+            to know a little bit more about you:</h2>
+        <form>
+            <label for="degree">What are you studying?</label><br>
+            <input type="text" id="degree" name="degree"><br>
+            <label for="interests">What interests you?</label><br>
+            <input type="text" id="interests" name="interests"><br>
+            <label for="skills">What skills do you want to develop?</label><br>
+            <input type="text" id="skills" name="skills"><br><br>
+            <button type="submit">Submit</button>
+        </form>
     </div>
-
-    <div class="custom-select" style="width:200px;">
-        <select class="select-css">
-            <option value="0">Western University</option>
-            <option value="1">University of Toronto</option>
-        </select>
-    </div>
-
-
-    <a href="form.html"><img class="button" src="started.png" alt="Let's get started"></a>
-
 </body>
 </html>
