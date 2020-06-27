@@ -1,5 +1,4 @@
 var button = document.getElementsByClassName("button");
-console.log(button);
 button[0].addEventListener("click", getResults);
 
 
