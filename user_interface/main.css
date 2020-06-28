@@ -102,11 +102,12 @@ input {
     box-sizing: border-box;
     border-radius: 2vw;
     outline: none;
+    font-family: 'Oxygen', sans-serif;
 }
 
 button {
-    width: 9vw;
-    height: 3vw;
+    width: 4vw;
+    height: 1vw;
     font-family: 'Oxygen', sans-serif;
     font-size: 1.5vw;
     color: white;
@@ -117,9 +118,16 @@ button {
     transition: transform .2s;
 }
 
+h3 {
+    font-size: 4vw;
+    text-decoration: none;
+}
+
 button:hover {
     transform: scale(1.05);
+    text-decoration: none;
 }
+
 
 /*FOR THE ABOUT PAGE*/
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:https="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>ClubFinder</title>
@@ -14,18 +14,19 @@
     </div>
 
     <div class="middle">
-        <h2>Hey there! To help you find a club that fits, we want to get
-            to know a little bit more about you:</h2>
+        <h3>Hey there! To help you find a club that fits, we want to get
+            to know a little bit more about you:</h3>
+
         <form>
             <label for="degree">What are you studying?</label><br>
-            <input type="text" id="degree" name="degree"><br>
+                <input class="custom-class" type="text" id="degree" name="degree"><br>
             <label for="interests">What interests you?</label><br>
-            <input type="text" id="interests" name="interests"><br>
+                <input type="text" id="interests" name="interests"><br>
             <label for="skills">What skills do you want to develop?</label><br>
-            <input type="text" id="skills" name="skills"><br><br>
-            <button class="button" type="submit">Submit</button>
+                <input type="text" id="skills" name="skills"><br><br>
+            <a href="results.html"><button class="button" type="button">Find Clubs!</button></a>
         </form>
     </div>
-    <script type="text/javascript" src="main.js"></script>
+
 </body>
 </html>
