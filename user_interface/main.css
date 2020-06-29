@@ -141,18 +141,22 @@ h3 {
     background-color: white;
     background-repeat: no-repeat;
     border-radius: 2vw;
-    margin: 0 auto;
     height: 9vw;
     width: 70vw;
     outline: none;
-    margin: 0 auto;
 }
 
 ul {
     list-style-type: none;
+    display: block;
+    width: 70%
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
-.club-item {
-    display: block;
-    margin: 0 auto;
+li {
+    display: list-item;
+    display: inline;
 }
+
