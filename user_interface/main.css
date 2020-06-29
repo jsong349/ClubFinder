@@ -105,9 +105,9 @@ input {
     font-family: 'Oxygen', sans-serif;
 }
 
-button {
-    width: 4vw;
-    height: 1vw;
+.submit_button {
+    width: 10vw;
+    height: 3vw;
     font-family: 'Oxygen', sans-serif;
     font-size: 1.5vw;
     color: white;
@@ -123,15 +123,36 @@ h3 {
     text-decoration: none;
 }
 
-button:hover {
+.submit_button:hover {
     transform: scale(1.05);
     text-decoration: none;
 }
 
-
 /*FOR THE ABOUT PAGE*/
-
 .header {
+    display: block;
+    margin: 0 auto;
+}
+
+/*FOR THE RESULT PAGE*/
+.course_suggestion_button {
+    color: #1A1A1A;
+    text-align: center;
+    background-color: white;
+    background-repeat: no-repeat;
+    border-radius: 2vw;
+    margin: 0 auto;
+    height: 9vw;
+    width: 70vw;
+    outline: none;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.club-item {
     display: block;
     margin: 0 auto;
 }
