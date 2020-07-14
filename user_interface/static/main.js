@@ -45,9 +45,9 @@ $(function() {
       $.getJSON('/background_process', {
         interests: $('input[name="interests"]').val(),
       }, function(data) {
+        $('#results').empty();
         var result_div = document.getElementById("results"); 
         var template = document.getElementById("template");
-        console.log(data.result)
         for (j = 0; j < data.result.length; j++){
           var clone = template.cloneNode(true);
           id = 'result' + j;
