@@ -26,12 +26,22 @@
 //     })
 // });
 
+console.log("Startin")
 $(function() {
     $('a#process_input').bind('click', function() {
       $.getJSON('/background_process', {
         interests: $('input[name="interests"]').val(),
       }, function(data) {
-        $("#result").text(data.result);
+        var desc = data.result[0][0]
+        var link = data.result[0][2]
+        var img = data.result[0][1]
+        $("#desc").text(desc);
+        $("#link").prop('href', link)
+        console.log(img)
+        $("#img").prop('src', img)
+        // console.log(link)
+        // console.log(title)
+        // console.log(desc)
       });
       return false;
     });
