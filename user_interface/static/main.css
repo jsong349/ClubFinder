@@ -116,6 +116,7 @@ input {
     border: 1px solid #6100A1;
     outline: none;
     transition: transform .2s;
+    margin-bottom: 15px;
 }
 
 h3 {
