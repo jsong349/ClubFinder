@@ -45,7 +45,6 @@ $(function() {
       $.getJSON('/background_process', {
         interests: $('input[name="interests"]').val(),
       }, function(data) {
-
         var result_div = document.getElementById("results"); 
         var template = document.getElementById("template");
         console.log(data.result)
