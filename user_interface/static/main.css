@@ -69,6 +69,8 @@ body {
     border-radius: 2vw;
     font-size: 1.5vw;
     outline: none;
+    display: block;
+    margin: 0 auto
 }
 
 .button {

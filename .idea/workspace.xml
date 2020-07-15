@@ -29,12 +29,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data_puller" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
   </component>
   <component name="RecentsManager">
@@ -44,7 +44,28 @@
       <recent name="C:\Users\Jenny Song\ClubFinder\user_interface" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.__init__">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ClubFinder" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/user_interface" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user_interface/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="club_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ClubFinder" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,12 +94,12 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_puller/clubfinder/clubfinder" />
+      <option name="SDK_HOME" value="C:\Users\Jenny Song\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_puller" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_puller/clubfinder/clubfinder/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user_interface" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -87,8 +108,14 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.club_spider" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.__init__" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.__init__" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.club_spider" />
       </list>
@@ -141,17 +168,49 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="361" y="5" key="#club_spider/0.0.1280.680@0.0.1280.680" timestamp="1594778651836" />
+    <state x="29" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594779764735">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="29" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1594779764735" />
     <state x="388" y="145" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593062636889">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="388" y="145" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1593062636889" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1594778672647">
+    <state x="492" y="96" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1594779910895">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1594778672647" />
-    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1594699384310">
+    <state x="492" y="96" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1280.680@0.0.1280.680" timestamp="1594779910895" />
+    <state x="361" y="5" key="#main" timestamp="1594779115898">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1594699384310" />
+    <state x="361" y="5" key="#main/0.0.1280.680@0.0.1280.680" timestamp="1594779115898" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1594779930137">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1594779930137" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1594779837880">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1594779837880" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1594779837880">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1594779837880" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1594779837880">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1594779837880" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1594779837880">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1594779837880" />
+    <state x="242" y="0" key="SettingsEditor" timestamp="1594780053563">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="242" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1594780053563" />
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1594779049992">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1594779049992" />
   </component>
 </project>
