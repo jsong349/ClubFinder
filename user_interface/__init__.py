@@ -13,8 +13,20 @@ with open('../data/org_data_full_western.json', 'r') as j:
 
 
 @app.route('/')
-def interactive():
+def index():
+	return render_template('index.html')
+
+@app.route('/about/')
+def about():
+	return render_template('about.html')
+
+@app.route('/form/')
+def form():
 	return render_template('form.html')
+
+@app.route('/results/')
+def results():
+	return render_template('results.html')
 
 @app.route('/background_process')
 def background_process():

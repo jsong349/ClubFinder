@@ -9,9 +9,9 @@
 </head>
 <body>
     <div class="nav-bar">
-        <div class="one"><a href="../templates/index.html"><img class=logo src="../static/Club_Finder.png" alt="Club Finder"></a></div>
-        <div class="two"><a href="../templates/about.html"><img class=logo src="../static/about_button.png" alt="Club Finder"></a></div>
-        <div class="three"><a href="../templates/index.html"><img class=logo src="../static/home_button.png" alt="Club Finder"></a></div>
+        <div class="one"><a href="{{ url_for('index') }}"><img class=logo src="../static/Club_Finder.png" alt="Club Finder"></a></div>
+        <div class="two"><a href="{{ url_for('about') }}"><img class=logo src="../static/about_button.png" alt="Club Finder"></a></div>
+        <div class="three"><a href="{{ url_for('index') }}"><img class=logo src="../static/home_button.png" alt="Club Finder"></a></div>
     </div>
 
     <div class="mid-section">
@@ -28,7 +28,7 @@
     </div>
 
 
-    <a href="form.html"><img class="button" src="../static/started.png" alt="Let's get started"></a>
+    <a href="{{ url_for('form') }}"><img class="button" src="../static/started.png" alt="Let's get started"></a>
 
 </body>
 </html>
